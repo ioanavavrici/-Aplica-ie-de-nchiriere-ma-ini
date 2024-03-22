@@ -50,9 +50,9 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\InchiriereMasina\InchiriereMasina.csproj">
-      <Project>{9d6c6e02-35ae-464e-85c6-05a7284476e4}</Project>
-      <Name>InchiriereMasina</Name>
+    <ProjectReference Include="..\LibrarieMasiniâ\LibrarieMasini.csproj">
+      <Project>{a2321419-623c-476b-8206-89d473c0ec4b}</Project>
+      <Name>LibrarieMasini</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
