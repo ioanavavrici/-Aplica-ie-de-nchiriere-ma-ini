@@ -10,7 +10,7 @@ namespace Inchiriere_masini
     {
         static void Main(string[] args)
         {
-            const int MaxMasini = 100;
+            const int MaxMasini = 500;
             Masina[] masini = new Masina[MaxMasini];
             int numarMasini = 0;
 
