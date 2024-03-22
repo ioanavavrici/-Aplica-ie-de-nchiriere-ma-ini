@@ -49,5 +49,11 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Inchirire_auto\Inchirire_auto.csproj">
+      <Project>{58a546fa-1e3d-4e10-839f-71de9da21d1a}</Project>
+      <Name>Inchirire_auto</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
